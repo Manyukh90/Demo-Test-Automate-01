@@ -8,7 +8,7 @@ Resource        ./variables.robot
 
 Open Avaliable With Maximize Browser Window
     [Arguments]        ${BASE_URL}            
-    Open Available Browser        ${BASE_URL}                
+    Open Available Browser        ${BASE_URL}       browser_selection=chrome                
     Maximize Browser Window        
     Set Selenium Speed    0.1
     Sleep    5
