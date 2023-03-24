@@ -11,7 +11,7 @@ Suite Teardown     Close All Browsers
 
 ${locator_google_search_box}=                    //html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]
 ${data_for_search_software_tester}=              software tester
-${locator_link_no_5}=                            xpath://div[@id="search"]//div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/a[1]
+${locator_link_no_5}=                            xpath://div[@id="search"]//div[1]/div[1]/div[6]/div/div/div/div[1]/div/a
 
 *** Keywords ***
 
